@@ -1,0 +1,1613 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/uname"
+      - "/home/utsab/spark/bin/uname"
+      - "/home/utsab/miniconda3/condabin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.8.0-85-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/gmake"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/gmake"
+      - "/home/utsab/miniconda3/envs/tf-gpu/gmake"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/gmake"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/gmake"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/gmake"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/gmake"
+      - "/home/utsab/spark/bin/gmake"
+      - "/home/utsab/miniconda3/condabin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/utsab/miniconda3/envs/tf-gpu/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/4.2.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-dlltool"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-dlltool"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-dlltool"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-dlltool"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-dlltool"
+      - "/usr/sbin/x86_64-conda-linux-gnu-dlltool"
+      - "/usr/bin/x86_64-conda-linux-gnu-dlltool"
+      - "/sbin/x86_64-conda-linux-gnu-dlltool"
+      - "/bin/x86_64-conda-linux-gnu-dlltool"
+      - "/usr/games/x86_64-conda-linux-gnu-dlltool"
+      - "/usr/local/games/x86_64-conda-linux-gnu-dlltool"
+      - "/snap/bin/x86_64-conda-linux-gnu-dlltool"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/dlltool"
+      - "/home/utsab/spark/bin/dlltool"
+      - "/home/utsab/miniconda3/condabin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-tapi"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-tapi"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-tapi"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-tapi"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-tapi"
+      - "/usr/sbin/x86_64-conda-linux-gnu-tapi"
+      - "/usr/bin/x86_64-conda-linux-gnu-tapi"
+      - "/sbin/x86_64-conda-linux-gnu-tapi"
+      - "/bin/x86_64-conda-linux-gnu-tapi"
+      - "/usr/games/x86_64-conda-linux-gnu-tapi"
+      - "/usr/local/games/x86_64-conda-linux-gnu-tapi"
+      - "/snap/bin/x86_64-conda-linux-gnu-tapi"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/tapi"
+      - "/home/utsab/spark/bin/tapi"
+      - "/home/utsab/miniconda3/condabin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "x86_64-conda-linux-gnu-gcc-ar-11"
+      - "x86_64-conda-linux-gnu-gcc-ar11"
+      - "x86_64-conda-linux-gnu-gcc-ar"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/usr/sbin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/usr/bin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/sbin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/bin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/usr/games/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/usr/local/games/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/snap/bin/x86_64-conda-linux-gnu-gcc-ar-11.2"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/usr/sbin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/usr/bin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/sbin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/bin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/usr/games/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/usr/local/games/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/snap/bin/x86_64-conda-linux-gnu-gcc-ar-11"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/usr/sbin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/usr/bin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/sbin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/bin/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/usr/games/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/usr/local/games/x86_64-conda-linux-gnu-gcc-ar11"
+      - "/snap/bin/x86_64-conda-linux-gnu-gcc-ar11"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "x86_64-conda-linux-gnu-gcc-ranlib"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/usr/sbin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/usr/bin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/sbin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/bin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/usr/games/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/usr/local/games/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/snap/bin/x86_64-conda-linux-gnu-gcc-ranlib-11.2"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/usr/sbin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/usr/bin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/sbin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/bin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/usr/games/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/usr/local/games/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/snap/bin/x86_64-conda-linux-gnu-gcc-ranlib-11"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/home/utsab/spark/bin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/home/utsab/miniconda3/condabin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/usr/local/sbin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/usr/local/bin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/usr/sbin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/usr/bin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/sbin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/bin/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/usr/games/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/usr/local/games/x86_64-conda-linux-gnu-gcc-ranlib11"
+      - "/snap/bin/x86_64-conda-linux-gnu-gcc-ranlib11"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-gcc-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7"
+      binary: "/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/utsab/miniconda3/envs/tf-gpu/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/utsab/miniconda3/envs/tf-gpu/lib -Wl,-rpath-link,/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/lib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7'
+        
+        Run Build Command(s): /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bb90/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2bb90.dir/build.make CMakeFiles/cmTC_2bb90.dir/build
+        gmake[1]: Entering directory '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7'
+        Building CXX object CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o
+        /home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/utsab/miniconda3/envs/tf-gpu/include    -v -o CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -c /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-v' '-o' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2bb90.dir/'
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/utsab/miniconda3/envs/tf-gpu/include /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2bb90.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o /tmp/ccnnUVYl.s
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"
+        ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"
+        ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"
+        ignoring nonexistent directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+        ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"
+        ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/utsab/miniconda3/envs/tf-gpu/include
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-v' '-o' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2bb90.dir/'
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnnUVYl.s
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.40
+        COMPILER_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-v' '-o' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2bb90
+        /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bb90.dir/link.txt --verbose=1
+        Reading specs from /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs
+        COLLECT_GCC=/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.0 (Anaconda gcc) 
+        COMPILER_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-L/home/utsab/miniconda3/envs/tf-gpu/lib' '-v' '-o' 'cmTC_2bb90' '-shared-libgcc' '-dumpdir' 'cmTC_2bb90.'
+         /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtyh6h.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2bb90 /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -rpath-link /home/utsab/miniconda3/envs/tf-gpu/lib -v CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        collect2 version 11.2.0
+        /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtyh6h.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2bb90 /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -rpath-link /home/utsab/miniconda3/envs/tf-gpu/lib -v CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        GNU ld (Anaconda binutils) 2.40
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-L/home/utsab/miniconda3/envs/tf-gpu/lib' '-v' '-o' 'cmTC_2bb90' '-shared-libgcc' '-dumpdir' 'cmTC_2bb90.'
+        /home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/utsab/miniconda3/envs/tf-gpu/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/utsab/miniconda3/envs/tf-gpu/lib -Wl,-rpath-link,/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/lib -v -Wl,-v CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2bb90
+        gmake[1]: Leaving directory '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/utsab/miniconda3/envs/tf-gpu/include]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/include] ==> [/home/utsab/miniconda3/envs/tf-gpu/include]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include/c++/11.2.0]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/utsab/miniconda3/envs/tf-gpu/include;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include/c++/11.2.0;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include/c++/11.2.0/backward;/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include;/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/include;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bb90/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2bb90.dir/build.make CMakeFiles/cmTC_2bb90.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-ewtbY7']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -isystem /home/utsab/miniconda3/envs/tf-gpu/include    -v -o CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -c /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-v' '-o' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2bb90.dir/']
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/ -isysroot /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/utsab/miniconda3/envs/tf-gpu/include /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2bb90.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o /tmp/ccnnUVYl.s]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0"]
+        ignore line: [ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward"]
+        ignore line: [ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+        ignore line: [ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/include]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include/c++/11.2.0/backward]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/include-fixed]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Anaconda gcc) version 11.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: dcd220e6e6985dc6323f6310e48ad8dd]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-v' '-o' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2bb90.dir/']
+        ignore line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnnUVYl.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (Anaconda binutils) 2.40]
+        ignore line: [COMPILER_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-v' '-o' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2bb90]
+        ignore line: [/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bb90.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/specs]
+        ignore line: [COLLECT_GCC=/home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: /opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc/configure --build=x86_64-build_conda-linux-gnu --host=x86_64-build_conda-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --exec_prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built --with-sysroot=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --with-local-prefix=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --disable-multilib --disable-nls --with-gmp=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpfr=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-mpc=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --with-isl=/opt/conda/conda-bld/gcc-compiler_1654084175708/work/buildtools --without-zstd --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libstdcxx-verbose --enable-lto --enable-libcc1 --enable-threads=posix --enable-plugin --with-pkgversion='Anaconda gcc' --enable-libmpx]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.0 (Anaconda gcc) ]
+        ignore line: [COMPILER_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/:/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-isystem' '/home/utsab/miniconda3/envs/tf-gpu/include' '-L/home/utsab/miniconda3/envs/tf-gpu/lib' '-v' '-o' 'cmTC_2bb90' '-shared-libgcc' '-dumpdir' 'cmTC_2bb90.']
+        link line: [ /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2 -plugin /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtyh6h.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2bb90 /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -rpath-link /home/utsab/miniconda3/envs/tf-gpu/lib -v CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccEtyh6h.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2bb90] ==> ignore
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/lib] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/lib]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-rpath] ==> ignore
+          arg [/home/utsab/miniconda3/envs/tf-gpu/lib] ==> ignore
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/utsab/miniconda3/envs/tf-gpu/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/utsab/miniconda3/envs/tf-gpu/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+          arg [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 11.2.0]
+        ignore line: [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/home/utsab/miniconda3/envs/tf-gpu/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEtyh6h.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2bb90 /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o -L/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64 -L/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/utsab/miniconda3/envs/tf-gpu/lib -rpath-link /home/utsab/miniconda3/envs/tf-gpu/lib -v CMakeFiles/cmTC_2bb90.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o /home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        linker tool for 'CXX': /home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o]
+        collapse obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o]
+        collapse obj [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/lib] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc] ==> [/home/utsab/miniconda3/envs/tf-gpu/lib/gcc]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib64] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/lib64]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib64] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/lib64]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64/crt1.o;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64/crti.o;/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtbegin.o;/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0/crtend.o;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/utsab/miniconda3/envs/tf-gpu/lib;/home/utsab/miniconda3/envs/tf-gpu/lib/gcc/x86_64-conda-linux-gnu/11.2.0;/home/utsab/miniconda3/envs/tf-gpu/lib/gcc;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/lib64;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/lib64;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib64;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/lib;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/lib;/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/utsab/miniconda3/envs/tf-gpu/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (Anaconda binutils) 2.40
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/FindGit.cmake:111 (find_program)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/FetchContent.cmake:1884 (find_package)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/FetchContent.cmake:1619 (__FetchContent_populateSubbuild)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "CMakeLists.txt:20 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/git"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/git"
+      - "/home/utsab/miniconda3/envs/tf-gpu/git"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/git"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/git"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/git"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/git"
+      - "/home/utsab/spark/bin/git"
+      - "/home/utsab/miniconda3/condabin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+      - "/usr/sbin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/pybind11-src/tools/FindPythonLibsNew.cmake:78 (find_program)"
+      - "build/_deps/pybind11-src/tools/pybind11Tools.cmake:50 (find_package)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:192 (include)"
+      - "build/_deps/pybind11-src/CMakeLists.txt:247 (include)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/python"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/bin/python"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/pybind11-src/tools/FindPythonLibsNew.cmake:277 (find_library)"
+      - "build/_deps/pybind11-src/tools/pybind11Tools.cmake:50 (find_package)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:192 (include)"
+      - "build/_deps/pybind11-src/CMakeLists.txt:247 (include)"
+    mode: "library"
+    variable: "PYTHON_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.10"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/"
+    found: "/home/utsab/miniconda3/envs/tf-gpu/lib/libpython3.10.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin/../x86_64-conda-linux-gnu/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:287 (check_cxx_compiler_flag)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:332 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "build/_deps/pybind11-src/tools/pybind11Common.cmake:399 (_pybind11_generate_lto)"
+      - "build/_deps/pybind11-src/CMakeLists.txt:247 (include)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-NV13wd"
+      binary: "/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-NV13wd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/utsab/miniconda3/envs/tf-gpu/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/utsab/miniconda3/envs/tf-gpu/lib -Wl,-rpath-link,/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/lib"
+      CMAKE_MODULE_PATH: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-NV13wd'
+        
+        Run Build Command(s): /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1b68c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1b68c.dir/build.make CMakeFiles/cmTC_1b68c.dir/build
+        gmake[1]: Entering directory '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-NV13wd'
+        Building CXX object CMakeFiles/cmTC_1b68c.dir/src.cxx.o
+        /home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++ -DHAS_FLTO  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/utsab/miniconda3/envs/tf-gpu/include  -std=c++17 -fPIE   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_1b68c.dir/src.cxx.o -c /home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-NV13wd/src.cxx
+        Linking CXX executable cmTC_1b68c
+        /home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b68c.dir/link.txt --verbose=1
+        /home/utsab/miniconda3/envs/tf-gpu/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/utsab/miniconda3/envs/tf-gpu/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/utsab/miniconda3/envs/tf-gpu/lib -Wl,-rpath-link,/home/utsab/miniconda3/envs/tf-gpu/lib -L/home/utsab/miniconda3/envs/tf-gpu/lib  CMakeFiles/cmTC_1b68c.dir/src.cxx.o -o cmTC_1b68c  -flto
+        gmake[1]: Leaving directory '/home/utsab/Downloads/PyCpp-Inference-Engine/build/CMakeFiles/CMakeScratch/TryCompile-NV13wd'
+        
+      exitCode: 0
+...

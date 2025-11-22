@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/utsab/Downloads/PyCpp-Inference-Engine/build/cmake_install.cmake",
+		"/home/utsab/Downloads/PyCpp-Inference-Engine/build/_deps/pybind11-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

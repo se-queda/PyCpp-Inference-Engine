@@ -1,0 +1,80 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/"
+      - "/home/utsab/spark/bin/"
+      - "/home/utsab/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/sbin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/bin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/sbin/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr/uname"
+      - "/home/utsab/miniconda3/envs/tf-gpu/bin/uname"
+      - "/home/utsab/spark/bin/uname"
+      - "/home/utsab/miniconda3/condabin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu"
+        - "/home/utsab/miniconda3/envs/tf-gpu/x86_64-conda-linux-gnu/sysroot/usr"
+      ENV{PATH}:
+        - "/home/utsab/miniconda3/envs/tf-gpu/bin"
+        - "/home/utsab/spark/bin"
+        - "/home/utsab/miniconda3/condabin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/utsab/miniconda3/envs/tf-gpu/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.8.0-85-generic - x86_64
+...
